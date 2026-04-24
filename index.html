@@ -1,0 +1,1311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digi Horizon</title>
+    <meta
+      name="description"
+      content="Digi Horizone is a full-stack digital marketing agency unlocking limitless digital potential through creative innovation and data-driven strategies."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div class="preloader-inner">
+        <div class="preloader-logo">
+          <img
+            src="./img/Agency_Logo.png"
+            alt="Digi Horizone"
+            class="preloader-logo-img"
+          />
+        </div>
+        <div class="preloader-bar"><div class="preloader-fill"></div></div>
+        <p class="preloader-text">Loading...</p>
+      </div>
+    </div>
+
+    <!-- custom cursor -->
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <nav class="nav-inner">
+          <a href="#hero" class="logo">
+            <img
+              src="./img/Agency_Logo.png"
+              alt="Digi Horizone Logo"
+              class="logo-img"
+            />
+          </a>
+
+          <ul class="nav-links">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+          </ul>
+
+          <a href="#contact" class="btn btn-primary btn-glow">
+            <i class="fas fa-rocket"></i> Get Consultation
+          </a>
+
+          <button
+            class="mobile-menu-btn"
+            id="mobile-menu-btn"
+            aria-label="Toggle menu"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </nav>
+
+        <nav class="mobile-nav" id="mobile-nav">
+          <a href="#hero"><i class="fas fa-home"></i> Home</a>
+          <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+          <a href="#services"><i class="fas fa-cogs"></i> Services</a>
+          <a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a>
+          <a href="#testimonials"
+            ><i class="fas fa-quote-left"></i> Testimonials</a
+          >
+          <a href="#blog"><i class="fas fa-blog"></i> Blog</a>
+          <a href="#contact" class="mobile-cta">
+            <i class="fas fa-envelope"></i> Contact Us
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- hero -->
+    <section id="hero">
+      <!-- slider background layer -->
+      <div class="hero-slider" id="hero-slider">
+        <div class="hero-slide active" data-index="0">
+          <div class="slide-bg slide-bg-1"></div>
+          <div class="slide-blur-overlay"></div>
+        </div>
+
+        <div class="hero-slide" data-index="1">
+          <div class="slide-bg slide-bg-2"></div>
+          <div class="slide-blur-overlay"></div>
+        </div>
+
+        <div class="hero-slide" data-index="2">
+          <div class="slide-bg slide-bg-3"></div>
+          <div class="slide-blur-overlay"></div>
+        </div>
+      </div>
+
+      <!-- decorative overlay elements -->
+      <div class="hero-particles" id="hero-particles"></div>
+      <div class="hero-line-grid"></div>
+      <div class="hero-orb o1"></div>
+      <div class="hero-orb o2"></div>
+      <div class="hero-orb o3"></div>
+
+      <!-- foreground content -->
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge animate-float">
+            <i class="fas fa-bolt"></i>
+            Full Stack Digital Marketing Agency
+          </div>
+
+          <h1 class="hero-title">
+            <span class="title-line animate-slide-right">Empowering Brands</span
+            ><br />
+            <span class="title-line animate-slide-left">
+              <span class="accent">Beyond Horizons</span>
+            </span>
+          </h1>
+
+          <div class="hero-buttons animate-fade-up-delay">
+            <a href="#services" class="btn btn-white btn-magnetic">
+              <span>Explore Services</span> <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline-white btn-magnetic">
+              <span>Free Consultation</span> <i class="fas fa-phone"></i>
+            </a>
+          </div>
+
+          <div class="hero-meta animate-fade-up-delay-2">
+            <div class="hero-stat">
+              <span class="num" data-count="8" data-suffix="+">0+</span>
+              <span class="label">Projects</span>
+            </div>
+            <div class="hero-divider"></div>
+            <div class="hero-stat">
+              <span class="num" data-count="10" data-suffix="+">0+</span>
+              <span class="label">Clients</span>
+            </div>
+            <div class="hero-divider"></div>
+            <div class="hero-stat">
+              <span class="num" data-count="98" data-suffix="%">0%</span>
+              <span class="label">Satisfaction</span>
+            </div>
+            <div class="hero-divider"></div>
+            <div class="hero-stat">
+              <span class="num" data-count="3" data-suffix="+">0+</span>
+              <span class="label">Years</span>
+            </div>
+          </div>
+
+          <div class="scroll-indicator animate-bounce">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- slider controls -->
+      <button
+        class="slider-arrow slider-prev"
+        id="slider-prev"
+        aria-label="Previous slide"
+      >
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <button
+        class="slider-arrow slider-next"
+        id="slider-next"
+        aria-label="Next slide"
+      >
+        <i class="fas fa-chevron-right"></i>
+      </button>
+
+      <!-- slider dots -->
+      <div class="slider-dots" id="slider-dots">
+        <button
+          class="slider-dot active"
+          data-slide="0"
+          aria-label="Slide 1"
+        ></button>
+        <button class="slider-dot" data-slide="1" aria-label="Slide 2"></button>
+        <button class="slider-dot" data-slide="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- slide progress bar -->
+      <div class="slide-progress-bar">
+        <div class="slide-progress-fill" id="slide-progress"></div>
+      </div>
+    </section>
+
+    <!-- marquee -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Brand Strategy</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Social Media Growth</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> SEO &amp; SEM</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Performance Marketing</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Content Creation</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Web Development</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Email Marketing</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Data Analytics</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Brand Strategy</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Social Media Growth</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> SEO &amp; SEM</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Performance Marketing</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Content Creation</span
+        >
+        <span class="marquee-item"><i class="fas fa-star"></i> Web Design</span>
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> Email Marketing</span
+        >
+        <span class="marquee-item"
+          ><i class="fas fa-star"></i> App Development</span
+        >
+      </div>
+    </div>
+
+    <!-- features -->
+    <section id="features">
+      <div class="container">
+        <div class="features-grid">
+          <div class="feature-card reveal reveal-delay-1" data-tilt>
+            <div class="feature-card-glow"></div>
+            <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+            <h3>Brand Strategy &amp; Identity</h3>
+            <p>
+              We build recognizable brands with clear purpose and strategic
+              positioning that resonates with your audience.
+            </p>
+            <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
+          </div>
+
+          <div class="feature-card reveal reveal-delay-2" data-tilt>
+            <div class="feature-card-glow"></div>
+            <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Social Media Growth</h3>
+            <p>
+              Turning engagement into real business impact through strategic
+              content and community building.
+            </p>
+            <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
+          </div>
+
+          <div class="feature-card reveal reveal-delay-3" data-tilt>
+            <div class="feature-card-glow"></div>
+            <div class="feature-icon"><i class="fas fa-chart-bar"></i></div>
+            <h3>Performance Marketing</h3>
+            <p>
+              Maximizing ROI through data-driven campaigns, intelligent
+              optimization and transparent analytics.
+            </p>
+            <div class="feature-arrow"><i class="fas fa-arrow-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section id="stats">
+      <div class="stats-bg-text">DIGI HORIZONE</div>
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item reveal reveal-delay-1">
+            <div class="stat-icon"><i class="fas fa-project-diagram"></i></div>
+            <span class="big-num" data-count="8" data-suffix="+">0+</span>
+            <span class="stat-label">Projects Completed</span>
+            <span class="stat-sub">Successful campaigns delivered</span>
+          </div>
+
+          <div class="stat-item reveal reveal-delay-2">
+            <div class="stat-icon"><i class="fas fa-globe"></i></div>
+            <span class="big-num" data-count="10" data-suffix="+">0+</span>
+            <span class="stat-label">Global Clients</span>
+            <span class="stat-sub">Brands we've empowered</span>
+          </div>
+
+          <div class="stat-item reveal reveal-delay-3">
+            <div class="stat-icon"><i class="fas fa-heart"></i></div>
+            <span class="big-num" data-count="98" data-suffix="%">0%</span>
+            <span class="stat-label">Client Satisfaction</span>
+            <span class="stat-sub">Long term happy partnerships</span>
+          </div>
+
+          <div class="stat-item reveal reveal-delay-4">
+            <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+            <span class="big-num" data-count="3" data-suffix="+">0+</span>
+            <span class="stat-label">Years of Excellence</span>
+            <span class="stat-sub">Since our founding in 2023</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-left reveal">
+            <div class="about-image-wrap parallax-img">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/service-1/9da85b2918_0.png"
+                alt="Digi Horizone Team"
+                loading="lazy"
+              />
+              <div class="about-image-overlay"></div>
+            </div>
+
+            <div class="about-badge animate-pulse-gold">
+              <span class="badge-num">2023</span>
+              <span class="badge-text">Founded</span>
+            </div>
+
+            <div class="about-experience-badge">
+              <i class="fas fa-award"></i>
+              <span>3+ Years Experience</span>
+            </div>
+          </div>
+
+          <div class="about-right reveal reveal-delay-2">
+            <span class="section-tag"
+              ><i class="fas fa-info-circle"></i> About Us</span
+            >
+            <h2 class="section-title">
+              Your Vision,<br />
+              <span class="title-accent">Our Innovation</span>
+            </h2>
+            <p class="about-desc">
+              We are Digi Horizone a forward thinking team of marketers,
+              designers and analysts passionate about creating digital stories
+              that perform. From startups to enterprises, we help brands rise
+              above the noise.
+            </p>
+
+            <div class="about-values">
+              <div class="value-item hover-lift">
+                <div class="value-icon"><i class="fas fa-lightbulb"></i></div>
+                <div>
+                  <h4>Creativity that Converts</h4>
+                  <p>Beautiful designs that drive results</p>
+                </div>
+              </div>
+
+              <div class="value-item hover-lift">
+                <div class="value-icon"><i class="fas fa-shield-alt"></i></div>
+                <div>
+                  <h4>Integrity in Every Pixel</h4>
+                  <p>Transparent, honest communication</p>
+                </div>
+              </div>
+
+              <div class="value-item hover-lift">
+                <div class="value-icon"><i class="fas fa-trophy"></i></div>
+                <div>
+                  <h4>Results You Can Trust</h4>
+                  <p>Data-driven, proven outcomes</p>
+                </div>
+              </div>
+
+              <div class="value-item hover-lift">
+                <div class="value-icon">
+                  <i class="fas fa-globe-americas"></i>
+                </div>
+                <div>
+                  <h4>Global Perspective</h4>
+                  <p>Local insights, international thinking</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="timeline">
+              <div class="timeline-item animate-slide-in">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">2023</span>
+                <span class="timeline-desc"
+                  >Founded with a bold digital vision</span
+                >
+              </div>
+              <div class="timeline-item animate-slide-in">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">2024</span>
+                <span class="timeline-desc"
+                  >First 9 clients across three industries</span
+                >
+              </div>
+              <div class="timeline-item animate-slide-in">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">2025</span>
+                <span class="timeline-desc">Story Driven Marketing Wins</span>
+              </div>
+              <div class="timeline-item animate-slide-in">
+                <div class="timeline-dot"></div>
+                <span class="timeline-year">2026</span>
+                <span class="timeline-desc"
+                  >Recognized for excellence in digital marketing</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-tag"
+            ><i class="fas fa-cogs"></i> What We Do</span
+          >
+          <h2 class="section-title">
+            Our <span class="title-accent">Services</span>
+          </h2>
+          <p class="section-subtitle">
+            Comprehensive digital solutions tailored to elevate your brand and
+            drive measurable, lasting growth.
+          </p>
+        </div>
+
+        <div class="services-cards">
+          <div class="service-card reveal reveal-delay-1" data-tilt>
+            <div class="service-card-shine"></div>
+            <div class="service-card-icon"><i class="fas fa-compass"></i></div>
+            <h3>Digital Strategy &amp; Consulting</h3>
+            <p>
+              Tailored audits, market analysis and digital roadmaps aligned with
+              your business objectives.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">Brand Audit</span>
+              <span class="service-tag">Market Analysis</span>
+              <span class="service-tag">Roadmap</span>
+            </div>
+            <div class="service-hover-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card reveal reveal-delay-2" data-tilt>
+            <div class="service-card-shine"></div>
+            <div class="service-card-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <h3>Social Media Marketing</h3>
+            <p>
+              Campaign planning, influencer collaborations and analytics to
+              convert followers into loyal customers.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">Content Strategy</span>
+              <span class="service-tag">Influencers</span>
+              <span class="service-tag">Analytics</span>
+            </div>
+            <div class="service-hover-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card reveal reveal-delay-3" data-tilt>
+            <div class="service-card-shine"></div>
+            <div class="service-card-icon"><i class="fas fa-search"></i></div>
+            <h3>SEO &amp; SEM</h3>
+            <p>
+              Cutting-edge search optimization and paid campaign management for
+              maximum visibility.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">On-Page SEO</span>
+              <span class="service-tag">Google Ads</span>
+              <span class="service-tag">Link Building</span>
+            </div>
+            <div class="service-hover-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card reveal reveal-delay-4" data-tilt>
+            <div class="service-card-shine"></div>
+            <div class="service-card-icon"><i class="fas fa-bolt"></i></div>
+            <h3>Performance Marketing</h3>
+            <p>
+              Maximizing ROI through intelligent campaign optimization and
+              transparent analytics.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">PPC</span>
+              <span class="service-tag">A/B Testing</span>
+              <span class="service-tag">ROI Tracking</span>
+            </div>
+            <div class="service-hover-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card reveal reveal-delay-1" data-tilt>
+            <div class="service-card-shine"></div>
+            <div class="service-card-icon"><i class="fas fa-palette"></i></div>
+            <h3>Brand Identity</h3>
+            <p>
+              Logo design, visual identity systems and brand guidelines that
+              make your business unforgettable.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">Logo Design</span>
+              <span class="service-tag">Guidelines</span>
+              <span class="service-tag">Visual Identity</span>
+            </div>
+            <div class="service-hover-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="service-card reveal reveal-delay-2" data-tilt>
+            <div class="service-card-shine"></div>
+            <div class="service-card-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <h3>Web Development &amp; Design</h3>
+            <p>
+              Stunning, conversion optimized websites built for performance,
+              speed and user experience.
+            </p>
+            <div class="service-tags">
+              <span class="service-tag">UI/UX</span>
+              <span class="service-tag">Development</span>
+              <span class="service-tag">Optimization</span>
+            </div>
+            <div class="service-hover-icon">
+              <i class="fas fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="services-cta reveal">
+          <a href="#contact" class="btn btn-primary btn-glow">
+            <i class="fas fa-calendar-alt"></i> Request a Custom Strategy
+            Session
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-tag"
+            ><i class="fas fa-briefcase"></i> Case Studies</span
+          >
+          <h2 class="section-title">
+            Portfolio &amp; <span class="title-accent">Results</span>
+          </h2>
+          <p class="section-subtitle">
+            Real results for real businesses extraordinary digital growth.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <div class="portfolio-card reveal reveal-delay-1">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/portfolio-1/a09133e8e3_0.png"
+                alt="GlowSkin Care"
+                loading="lazy"
+              />
+              <div class="portfolio-overlay">
+                <span class="portfolio-overlay-tag">Beauty &amp; Skincare</span>
+                <div class="portfolio-overlay-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <h3>GlowSkin Care</h3>
+              <p>Influencer partnerships + content marketing strategy</p>
+              <div class="portfolio-result">
+                <i class="fas fa-chart-line"></i> +65% lead growth
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card reveal reveal-delay-2">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/portfolio-2/b8debce493_0.png"
+                alt="Urban Fit Gear"
+                loading="lazy"
+              />
+              <div class="portfolio-overlay">
+                <span class="portfolio-overlay-tag">Fitness &amp; Apparel</span>
+                <div class="portfolio-overlay-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <h3>Urban Fit Gear</h3>
+              <p>TikTok campaigns + user generated content</p>
+              <div class="portfolio-result">
+                <i class="fas fa-chart-line"></i> +120% engagement
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-card reveal reveal-delay-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/portfolio-3/d9610cedf9_0.png"
+                alt="TechStart Solutions"
+                loading="lazy"
+              />
+              <div class="portfolio-overlay">
+                <span class="portfolio-overlay-tag">B2B SaaS</span>
+                <div class="portfolio-overlay-btn">
+                  <i class="fas fa-external-link-alt"></i>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <h3>TechStart Solutions</h3>
+              <p>LinkedIn ads + content marketing funnel</p>
+              <div class="portfolio-result">
+                <i class="fas fa-chart-line"></i> +200% qualified leads
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-cta reveal">
+          <a href="#contact" class="btn btn-primary btn-glow">
+            <i class="fas fa-arrow-right"></i> Start Your Success Story
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+      <div class="testi-bg-shapes">
+        <div class="testi-shape s1"></div>
+        <div class="testi-shape s2"></div>
+      </div>
+
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-tag testi-tag"
+            ><i class="fas fa-heart"></i> Client Love</span
+          >
+          <h2 class="section-title white">
+            What Our <span class="title-accent">Clients Say</span>
+          </h2>
+          <p class="section-subtitle muted">
+            Don't just take our word for it here's what industry leaders say.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal reveal-delay-1">
+            <div class="testi-quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Digi Horizone completely transformed our online presence. Their
+              team blended creativity with precision and the results exceeded
+              every expectation."
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">SK</div>
+              <div>
+                <div class="testi-name">Huzaifa Ashraf</div>
+                <div class="testi-role">Founder @ GlowSkin Care</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2">
+            <div class="testi-quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "From day one, they understood our audience better than we did. We
+              feel like they're an extension of our own in house marketing
+              team."
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">JR</div>
+              <div>
+                <div class="testi-name">Jonathan R.</div>
+                <div class="testi-role">CEO @ Urban Fit Gear</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-3">
+            <div class="testi-quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "Our leads doubled in just three months. The team's SEO expertise
+              combined with their creative content approach is genuinely world
+              class."
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">AR</div>
+              <div>
+                <div class="testi-name">Abid Mehta</div>
+                <div class="testi-role">CTO @ TechStart Solutions</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-4">
+            <div class="testi-quote-icon">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <div class="testi-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+            </div>
+            <p>
+              "If you're serious about growing your brand, Digi Horizone is the
+              partner you need. Transparent, strategic and incredibly result
+              driven."
+            </p>
+            <div class="testi-author">
+              <div class="testi-avatar">LP</div>
+              <div>
+                <div class="testi-name">Liaqat Perez</div>
+                <div class="testi-role">Marketing Director @ Nova Brands</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section id="blog">
+      <div class="container">
+        <div class="text-center reveal">
+          <span class="section-tag"
+            ><i class="fas fa-newspaper"></i> Latest Insights</span
+          >
+          <h2 class="section-title">
+            From Our <span class="title-accent">Blog</span>
+          </h2>
+          <p class="section-subtitle">
+            Stay ahead with our latest thoughts on marketing trends and digital
+            innovation.
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card reveal reveal-delay-1">
+            <div class="blog-img-wrap">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/blog-1/42d2c39ad1_0.png"
+                alt="Story-Driven Marketing"
+                loading="lazy"
+              />
+              <div class="blog-date">
+                <i class="fas fa-calendar"></i> Jan 2025
+              </div>
+            </div>
+            <div class="blog-body">
+              <span class="blog-tag">Marketing Trends</span>
+              <h3>Why Story Driven Marketing Wins in 2025</h3>
+              <p>
+                Discover how authentic storytelling creates deeper connections
+                and better conversion rates.
+              </p>
+              <span class="blog-read-more"
+                >Read Article <i class="fas fa-arrow-right"></i
+              ></span>
+            </div>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-2">
+            <div class="blog-img-wrap">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/blog-2/2d20e36002_0.png"
+                alt="Interactive Advertising"
+                loading="lazy"
+              />
+              <div class="blog-date">
+                <i class="fas fa-calendar"></i> Feb 2025
+              </div>
+            </div>
+            <div class="blog-body">
+              <span class="blog-tag">Brand Tips</span>
+              <h3>The Rise of Interactive Ads for SMEs</h3>
+              <p>
+                How small businesses can leverage interactive advertising to
+                compete with larger brands.
+              </p>
+              <span class="blog-read-more"
+                >Read Article <i class="fas fa-arrow-right"></i
+              ></span>
+            </div>
+          </article>
+
+          <article class="blog-card reveal reveal-delay-3">
+            <div class="blog-img-wrap">
+              <img
+                src="https://cdn.ailandingpage.ai/ai_landingpage/a6c9694b-2638-46b0-be2d-8c8467d538ed/generate_file/a6c9694b-2638-46b0-be2d-8c8467d538ed/blog-3/579d2379aa_0.png"
+                alt="AI in Brand Strategy"
+                loading="lazy"
+              />
+              <div class="blog-date">
+                <i class="fas fa-calendar"></i> Mar 2025
+              </div>
+            </div>
+            <div class="blog-body">
+              <span class="blog-tag">AI in Advertising</span>
+              <h3>How AI Is Reshaping Brand Strategy</h3>
+              <p>
+                Explore the transformative role of AI in modern brand strategy
+                and customer experience.
+              </p>
+              <span class="blog-read-more"
+                >Read Article <i class="fas fa-arrow-right"></i
+              ></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="contact-bg-glow"></div>
+      <div class="container">
+        <div class="contact-grid">
+          <div class="reveal">
+            <span class="section-tag contact-stag"
+              ><i class="fas fa-comments"></i> Let's Talk</span
+            >
+            <h2 class="contact-title">
+              Let's Build Something
+              <span class="title-accent">Extraordinary</span>
+            </h2>
+            <p class="contact-subtitle">
+              Ready to take your business beyond limits? Tell us about your
+              project and let's create measurable growth together.
+            </p>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name"
+                    ><i class="fas fa-user"></i> Full Name *</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email"
+                    ><i class="fas fa-envelope"></i> Email *</label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="company"
+                    ><i class="fas fa-building"></i> Company</label
+                  >
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Your company name"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="service"
+                    ><i class="fas fa-cog"></i> Service Interested In</label
+                  >
+                  <select id="service" name="service">
+                    <option value="" disabled selected>Select a service</option>
+                    <option>Digital Strategy &amp; Consulting</option>
+                    <option>Social Media Marketing</option>
+                    <option>SEO &amp; SEM</option>
+                    <option>Performance Marketing</option>
+                    <option>Brand Identity</option>
+                    <option>Web Design</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message"
+                  ><i class="fas fa-pen"></i> Message *</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Tell us about your project, goals, and timeline..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="form-submit btn-glow">
+                <i class="fas fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info-block reveal reveal-delay-2">
+            <div>
+              <h3>Get in Touch</h3>
+              <p>
+                We're a globally remote team, always reachable and ready to
+                start a conversation about your brand's future.
+              </p>
+            </div>
+
+            <div class="contact-links">
+              <a
+                href="mailto:digihorizone@gmail.com"
+                class="contact-link-item hover-lift"
+              >
+                <div class="contact-link-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <span class="contact-link-label">Email Us</span>
+                  <span>digihorizone@gmail.com</span>
+                </div>
+              </a>
+
+              <a
+                href="https://wa.me/923447694472"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link-item hover-lift"
+              >
+                <div class="contact-link-icon whatsapp-icon">
+                  <i class="fab fa-whatsapp"></i>
+                </div>
+                <div>
+                  <span class="contact-link-label">WhatsApp</span>
+                  <span>+92 344 7694472</span>
+                </div>
+              </a>
+
+              <div class="contact-link-item hover-lift">
+                <div class="contact-link-icon">
+                  <i class="fas fa-globe"></i>
+                </div>
+                <div>
+                  <span class="contact-link-label">Location</span>
+                  <span>Punjab, Pakistan</span>
+                </div>
+              </div>
+
+              <div class="contact-link-item hover-lift">
+                <div class="contact-link-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div>
+                  <span class="contact-link-label">Response Time</span>
+                  <span>Within 1 hours</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <p class="social-label">Follow Us</p>
+              <div class="social-row">
+                <a
+                  href="https://facebook.com/digihorizone"
+                  class="social-btn facebook-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a
+                  href="https://instagram.com/digihorizone"
+                  class="social-btn instagram-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+
+                <a
+                  href="https://wa.me/923447694472"
+                  class="social-btn whatsapp-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+
+                <a
+                  href="https://linkedin.com/company/digihorizone"
+                  class="social-btn linkedin-btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-logo-wrap">
+              <img
+                src="./img/Agency_Logo.png"
+                alt="Digi Horizone"
+                class="footer-logo-img"
+              />
+              <span class="footer-logo-text">
+                Digi <span class="logo-gold">Horizone</span>
+              </span>
+            </div>
+
+            <p class="footer-tagline">Driven by Data. Defined by Creativity.</p>
+            <p class="footer-desc">
+              Your trusted partner for digital marketing excellence. We
+              transform brands and deliver measurable results.
+            </p>
+
+            <div class="social-row footer-social">
+              <a
+                href="https://facebook.com/digihorizone"
+                class="social-btn facebook-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a
+                href="https://instagram.com/digihorizone"
+                class="social-btn instagram-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a
+                href="https://wa.me/923447694472"
+                class="social-btn whatsapp-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+
+              <a
+                href="https://linkedin.com/company/digihorizone"
+                class="social-btn linkedin-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/digihorizone"
+                class="social-btn twitter-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+              >
+                <i class="fab fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#hero"><i class="fas fa-chevron-right"></i> Home</a>
+              </li>
+              <li>
+                <a href="#about"><i class="fas fa-chevron-right"></i> About</a>
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> Services</a
+                >
+              </li>
+              <li>
+                <a href="#portfolio"
+                  ><i class="fas fa-chevron-right"></i> Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#testimonials"
+                  ><i class="fas fa-chevron-right"></i> Testimonials</a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  ><i class="fas fa-chevron-right"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> Digital Strategy</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> Social Media
+                  Marketing</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> SEO &amp; SEM</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> Web Development</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> Brand Identity</a
+                >
+              </li>
+              <li>
+                <a href="#services"
+                  ><i class="fas fa-chevron-right"></i> App Development</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <ul class="footer-links footer-contact-links">
+              <li>
+                <a href="mailto:digihorizone@gmail.com">
+                  <i class="fas fa-envelope"></i> digihorizone@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/923447694472"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-whatsapp"></i> +92 344 7694472
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://facebook.com/digihorizone"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-facebook-f"></i> /digihorizone
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/digihorizone"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-instagram"></i> @digihorizone
+                </a>
+              </li>
+              <li><i class="fas fa-globe"></i> Global Remote Team</li>
+              <li><i class="fas fa-clock"></i> Available 24/7 Online</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-copy">
+            © 2025 Digi Horizone. All rights reserved. | Crafted with
+            <i class="fas fa-heart footer-heart-icon"></i>
+          </p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- floating whatsapp -->
+    <a
+      href="https://wa.me/923447694472"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+      <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+
+    <!-- utilities -->
+    <button id="scroll-top" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./main.js"></script>
+    <script src="./chatbot.js"></script>
+  </body>
+</html>
